@@ -4,9 +4,6 @@ import { Provider, connect } from 'react-redux'
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
 
-import rootReducer from './redux/reducers'
-import App from './components/App'
-
 class App extends React.Component {
 	constructor(props) {
 		super(props);
